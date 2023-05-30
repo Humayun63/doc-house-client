@@ -4,9 +4,11 @@
 
 .doc-header{
   height: 80vh;
+  width: 100vw !important;
   background: url('./assets/header/header.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  @apply w-full
 }
 .doc-container{
   @apply max-w-7xl mx-auto pt-4
